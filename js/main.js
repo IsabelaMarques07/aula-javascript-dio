@@ -111,3 +111,33 @@ var idade = prompt ("Qual sua idade?")
 console.log(validaIdade(idade))
 
 */
+
+/* AULA 5 - MANIPULANDO ELEMENTOS DA PÁGINA
+function clicou(){
+    //alert("Obrigado por clicar!")
+    document.getElementById("agradecimento").innerHTML = "Obrigada por clicar!"
+}
+
+function redirecionar(){
+    window.open("https://github.com/IsabelaMarques07/aula-javascript-dio")
+    window.location.href = "https://github.com/IsabelaMarques07/aula-javascript-dio"
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigada por passar o mouse"
+    elemento.innerHTML = "Obrigada por passar o mouse"
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("Página carregada!")
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+*/
